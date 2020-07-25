@@ -12,13 +12,13 @@ public class ThreeNPlusOne {
 
         while (true) {
             String line = scanner.nextLine();
-            if (line.length() == 0) break;
+            if (line.equals("")) break;
 
-            String[] numbers = line.split(" ");
+            String[] numbers = line.trim().split("\\s+");
             int maxCycleLength = 0;
 
-            a = Integer.parseInt(numbers[0]);
-            b = Integer.parseInt(numbers[1]);
+            a = Integer.parseInt(numbers[0].trim());
+            b = Integer.parseInt(numbers[1].trim());
 
             if (a > b) {
                 int temp = b;
