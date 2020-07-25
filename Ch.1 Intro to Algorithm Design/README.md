@@ -4,7 +4,7 @@
 
 * [Reasoning for Correctness](#reasoning-for-correctness)
 * [Modelling the Problems](#modelling-the-problems)
-* [Exercise](#exercises)
+* [Exercises](#exercises)
 
 ## Reasoning for Correctness
 
@@ -78,7 +78,7 @@ common structures:
 * Permutations: arrangements and orderings of items. They are in question
 when the problem seeks "arrangement", "tour", "ordering" or "sequence".
 
-* Subset: selection from set of items. They are in question
+* Subsets: selection from set of items. They are in question
 when the problem seeks "cluster", "collection", "committee", "group" or "selection".
 
 * Trees: hierarchical relationships between items. They are in question
@@ -96,7 +96,7 @@ when the problem seeks "shapes", "regions" or "boundaries".
 * Strings: sequence of characters or patterns. They are in question
 when the problem seeks "text", "characters", "patterns" or "labels".
 
-*Take-home lesson:* Modelling your application in terms of well-defined
+**Take-home lesson:** Modelling your application in terms of well-defined
 structures and algorithms is the most important step towards a solution.
 
 ## Exercises
